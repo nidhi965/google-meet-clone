@@ -17,11 +17,14 @@
 }
 
 body {
+  --foreground-rgb: 255, 255, 255; /* Placeholder for foreground color */
+  --background-start-rgb: 0, 0, 0; /* Black color */
+  --background-end-rgb: 0, 0, 0; /* Black color */
+
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb));
 }
